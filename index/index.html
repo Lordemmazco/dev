@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Neo Login</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <form id="loginForm" novalidate>
+      <h2>LOGIN Portal</h2>
+
+      <div class="input-group">
+        <input type="email" id="email" required>
+        <label for="email">Email Address</label>
+        <span class="bar"></span>
+        <small class="error"></small>
+      </div>
+
+      <div class="input-group">
+        <input type="password" id="password" required minlength="6">
+        <label for="password">Password</label>
+        <span class="bar"></span>
+        <small class="error"></small>
+      </div>
+
+      <button type="submit">Enter The Grid</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
